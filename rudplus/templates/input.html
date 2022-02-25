@@ -8,10 +8,13 @@
     <title>RUD+</title>
 </head>
 <body>
-    <section>
-        <p id="question">Please, tell us know how you've been (More than 10 words)</p>
+    <header>
+        <a href="/"><img src="../static/images/homeIcon.png" alt="Home" class="hIcon"></a>
+    </header>
+    <section id="inputSec">
+        <p id="question">Please, tell us know how you've been </p>
         <form action="/predict" method="post">
-            <textarea name="context" id="context" cols="120" rows="30"></textarea>
+            <textarea name="context" id="context" cols="100" rows="20" placeholder="Please enter at least 10 words in English."></textarea>
             <input type="submit" value="→">
         </form>
     </section>

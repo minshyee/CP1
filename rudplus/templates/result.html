@@ -8,23 +8,30 @@
     <title>RUD+</title>
 </head>
 <body>
-    <section id="res">
-        <div id="result">
-            <a> The probability that you need help is {{ result }}%.</a>
-        </div>
+    <header>
+        <a href="/"><img src="../static/images/homeIcon.png" alt="Home" class="hIcon"></a>
+    </header>
+    <section id="resultSec">
+        <article>
+            <div id="result">
+                <p> The probability that you need help is {{ result }}%.</p>
+
+            </div>
+            <p>If you need help.. </p>
+            <nav>
+                <a href="http://www.ncmh.go.kr/ncmh/main.do"><img src="../static/images/capsuleIcon.png" alt="capsule" class="icon"></a>
+                <a href="https://maumlab.com"><img src="../static/images/heartbeatIcon.png" alt="heart" class="icon"></a>
+                <a href="https://kucbt.co.kr/"><img src="../static/images/bandIcon.png" alt="hospital" class="icon"></a>
+            </nav>
+        </article>
         <aside>
-            <p id="keyTitle"> Keyword </p>
+            <p id="keyTitle">Worry Keyword </p>
             <span id="keyword">
-                <a class="shap">#{{ key1 }}</a> <a class="shap"> #{{ key2 }} </a> <a class="shap"> #{{ key3 }} </a> <a class="shap"> #{{ key4 }} </a> <a class="shap"> #{{ key5 }} </a>
+                <p class="shap">#{{ key1 }}</p> <p class="shap"> #{{ key2 }} </p> <p class="shap"> #{{ key3 }} </p> <p class="shap"> #{{ key4 }} </p> <p class="shap"> #{{ key5 }} </p>
             </span>
         </aside>
-        <nav>
-            <a href="http://www.ncmh.go.kr/ncmh/main.do"><img src="../static/images/capsuleIcon.png" alt="capsule" class="icon"></a>
-            <a href="https://maumlab.com"><img src="../static/images/heartbeatIcon.png" alt="heart" class="icon"></a>
-            <a href="https://kucbt.co.kr/"><img src="../static/images/bandIcon.png" alt="hospital" class="icon"></a>
-            <br>
-            <a href="/"><img src="../static/images/homeIcon.png" alt="Home" class="icon"></a>
-        </nav>
+
+
     </section>
 </body>
 </html>
