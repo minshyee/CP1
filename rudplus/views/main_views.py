@@ -1,6 +1,7 @@
 
 from flask import Blueprint, render_template, request
 from rudplus.topic_ml import extract_keywords
+from rudplus.classification_ml import sentiment_anlysis
 
 main_bp = Blueprint('main',__name__)
 
@@ -21,10 +22,10 @@ def input():
 @main_bp.route('/predict', methods=['GET', 'POST'])
 def predict():
     if request.method == 'POST':
-        doc =  request.form['context']
+        doc = request.form['context']
+        print(type(doc))
         # predic model
-        pred = 73
-
+        pred = sentiment_anlysis(doc)
         # keyword model
         key1, key2, key3, key4, key5 = extract_keywords(doc)
 
