@@ -17,4 +17,4 @@
 
 ## ver_2 : model change
  - model
-  - nltk vader 이용 : sentiment analysis 
+    - nltk vader 이용 : sentiment analysis 
