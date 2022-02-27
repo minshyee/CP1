@@ -8,8 +8,8 @@
 
 ## ver_1 : submit ver.
 - model 
-  -classification model : building model using LSTM, dropout
-  -keyword model : import library using keyBERT
+  - classification model : building model using LSTM, dropout
+  - keyword model : import library using keyBERT
  
 - web
   - flask
