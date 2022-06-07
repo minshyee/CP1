@@ -10,7 +10,7 @@
 
 ## ver_1 : submit ver.
 - model 
-  - classification model : building model using LSTM, dropout
+  - classification model : building model using LSTM, dropout -> 불안정 ver_2 개발 이유
   - keyword model : import library using keyBERT
  
 - web
