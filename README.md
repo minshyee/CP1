@@ -1,4 +1,4 @@
-# CP 1: RUD+:Rescue Using Detection
+# RUD+:Rescue Using Detection
 
 증가하는 정신 건강의 위험성과 관련 서비스 접근성이 낮은 현실에 도움이 되고자 기획하였습니다.
 
