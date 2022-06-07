@@ -1,8 +1,9 @@
 # RUD+:Rescue Using Detection
 
-It is designed to help the reality of increasing mental health risks and low access to related services.
-To make early diagnosis and early treatment easier by increasing accessibility,
-So that We can easily recognize what kind of environment is giving me a hard time
+It is designed to help the reality of increasing mental health risks and low access to related services.</br>
+- To make early diagnosis and treatment easier by increasing accessibility</br>
+- We can easily recognize what kind of environment is giving us a hard time
+
 
 ## ver_1 : submit ver.
 - model 
@@ -13,7 +14,7 @@ So that We can easily recognize what kind of environment is giving me a hard tim
   - flask
   - html
 
-## ver_2 : model change
+## ver_2 : model change __ this is current version
  - model
     - sentiment analysis : nltk vader 이용 
 
