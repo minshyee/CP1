@@ -17,6 +17,8 @@ It is designed to help the reality of increasing mental health risks and low acc
 ## ver_2 : model change __ this is current version
  - model
     - sentiment analysis : nltk vader 이용 
+ - play
+   ![rudplus](https://user-images.githubusercontent.com/50479962/174746562-90730cdd-7760-40b8-bcc4-1f430dbb25aa.gif)
 
 ## ver_3 : imporve the project
 - topic model experience
