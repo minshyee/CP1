@@ -35,7 +35,7 @@ It is designed to help the reality of increasing mental health risks and low acc
  
 
 ## ver_3 : imporve the project
-- topic model experience
+- topic model experiment
   - LSA
   - LDA
   - keyBERT
