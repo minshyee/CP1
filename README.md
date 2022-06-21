@@ -27,6 +27,7 @@ It is designed to help the reality of increasing mental health risks and low acc
 ## ver_2 : model change __ this is current version
  - Model
     - sentiment analysis : nltk vader 이용 
+    - keyword model : import library using keyBERT
  - Web
     - flask
     - html
