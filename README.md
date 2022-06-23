@@ -12,6 +12,9 @@ It is designed to help the reality of increasing mental health risks and low acc
   - 232074 rows x 2 columns (dtypes: str)
     - target 1 : suicide
     - target 0 : non-suicide
+- Visualization
+  ![image](https://user-images.githubusercontent.com/50479962/175191504-1e85ef85-6238-4a30-b4b4-80ab6dc36115.png)
+
       
 - Model 
   - classification model : building model using LSTM, dropout </br>
@@ -23,7 +26,8 @@ It is designed to help the reality of increasing mental health risks and low acc
      ![image](https://user-images.githubusercontent.com/50479962/174748864-58f18b15-fefd-4b72-a855-e9bb311f3e10.png)
 
   - keyword model : import library using keyBERT
- 
+      - 실시간으로 예측 시, 좀 더 빠르게 작동할 수 있는 모델
+      
 ## ver_2 : model change __ this is current version
  - Model
     - sentiment analysis : nltk vader 이용 
