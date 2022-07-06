@@ -26,7 +26,7 @@
      -> 불안정: ver_2 개발 이유</br>
      
        target을 기준으로 label 1은 심각하게 우울한 사람, label 0은 경미한 상태의 우울한 사람으로 </br>
-       target을 판단하여 LSTM을 이용하여 점수화 시키고자 했으나 모델을 훈련시키기에 정보가 너무 부족하다고 판단 </br>
+       target을 판단하여 LSTM을 이용하여 점수화 시키고자 했으나 모델을 훈련시키기에 정보가 너무 부족(feature 2개)하다고 판단 </br>
      ![image](https://user-images.githubusercontent.com/50479962/174748864-58f18b15-fefd-4b72-a855-e9bb311f3e10.png)
 
   - keyword model : import library using keyBERT
@@ -35,6 +35,7 @@
 ## ver_2 : model change __ this is current version
  - Model
     - sentiment analysis : nltk vader 이용 
+      - 사용이유 : 문장 그대로인 상태로 감정점수를 매김. feature를 기반으로 예측하는 것보다 신뢰도가 높다고 
     - keyword model : import library using keyBERT
  - Web
     - flask
