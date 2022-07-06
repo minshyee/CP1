@@ -1,9 +1,13 @@
 # RUD+:Rescue Using Detection
 
-It is designed to help the reality of increasing mental health risks and low access to related services.</br>
-- To make early diagnosis and treatment easier by increasing accessibility</br>
-- We can easily recognize what kind of environment is giving us a hard time
+이 프로젝트는 정신건강에 대한 관심도가 높아짐에 따라 진행하게 된 프로젝트입니다.
+현재 관련 건강서비스 이용 시, 많은 사람들의 선입견을 피할 수 없습니다.
+그 결과로 낮은 정신건강치료 서비스 이용율이 낮아지는 것을 깨달았습니다.
+이러한 현실을 탈피해 보고자 해당 서비스를 기획하였습니다.
 
+- 접근성을 높여 조기 진단 및 치료 연결이 가능하도록 하는 서비스
+- 적어도, 현재 나를 괴롭히는 키워드가 무엇인지 알 수 있도록 도와주는 서비스
+ 
 
 ## ver_1 : submit ver.
 - Data [🧷Link](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch)
