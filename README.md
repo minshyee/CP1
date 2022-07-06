@@ -35,7 +35,7 @@
 ## ver_2 : model change __ this is current version
  - Model
     - sentiment analysis : nltk vader 이용 
-      - 사용이유 : 문장 그대로인 상태로 감정점수를 매김. feature를 기반으로 예측하는 것보다 신뢰도가 높다고 
+      - 사용이유 : 문장 그대로인 상태로 감정점수를 매김. </br>feature를 기반으로 예측하는 것보다 신뢰도가 높다고 판단
     - keyword model : import library using keyBERT
  - Web
     - flask
